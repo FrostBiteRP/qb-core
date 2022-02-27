@@ -247,6 +247,30 @@ QBShared.Jobs = {
             },
         },
 	},
+    ['vagos'] = {
+		label = 'Vagos',
+		defaultDuty = true,
+		offDutyPay = false,
+		grades = {
+            ['0'] = {
+                name = 'Recruit',
+                payment = 250
+            },
+			['1'] = {
+                name = 'Enforcer',
+                payment = 450
+            },
+			['2'] = {
+                name = 'Shot Caller',
+                payment = 650
+            },
+			['3'] = {
+                name = 'Boss',
+                isboss = true,
+                payment = 1000
+            },
+        },
+	},
 	['judge'] = {
 		label = 'Honorary',
 		defaultDuty = true,
