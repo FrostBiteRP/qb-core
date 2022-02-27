@@ -191,6 +191,34 @@ QBShared.Jobs = {
             },
         },
 	},
+    ['autoexotic'] = {
+		label = 'AutoExotic',
+		defaultDuty = true,
+		offDutyPay = false,
+		grades = {
+            ['0'] = {
+                name = 'Recruit',
+                payment = 150
+            },
+			['1'] = {
+                name = 'Novice',
+                payment = 175
+            },
+			['2'] = {
+                name = 'Experienced',
+                payment = 200
+            },
+			['3'] = {
+                name = 'Advanced',
+                payment = 1000
+            },
+			['4'] = {
+                name = 'Manager',
+				isboss = true,
+                payment = 1500
+            },
+        },
+	},
 	['judge'] = {
 		label = 'Honorary',
 		defaultDuty = true,
